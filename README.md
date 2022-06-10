@@ -12,8 +12,8 @@ Finally, the posterior distributions are calculated, followed by the model's mar
 <!-- <img src="https://render.githubusercontent.com/render/math?math=p(\mathbf{y} | X, \mathcal{M}) = \int p(\mathbf{y}, \mathbf{w} | X, \mathcal{M}) \mathop{}\!\mathrm{d} \mathbf{w} = \int p(\mathbf{y} | X, \mathbf{w}, \mathcal{M}) \, p(\mathbf{w} | \mathcal{M}) \mathop{}\!\mathrm{d} \mathbf{w}"> -->
 
 Sample output:
-![alt text](Images/prior.png)
-![alt text](Images/posterior.png)
+
+<img src="Images/prior.png" width="49%" /> <img src="Images/posterior.png" width="49%" />
 ```
 p(y | X, M='Linear') = 4.3328164967564665e-10
 p(y | X, M='Quadratic') = 6.923278357438273e-09
